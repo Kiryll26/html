@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Work+Sans:300,400,500,600&display=swap');
+body {
+    width: 1920px;
+    height: 1080px;
+    background: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+header {
+    max-width: 800px;
+    max-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.form{
+    width: 800px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background: #F4F5FC;
+}
+.Group {
+    width: 665px;
+    height: 481px;
+    background: #fff;
+    align-self: center;
+    display: grid;
+    grid-template-areas: "BitmapText account";
+}
+.Bitmap {
+    width: 138px;
+    height: 481px;
+    background: #5A61ED;
+}
+.signup {
+    margin: 261.02px 71.3px;
+    width: 200px;
+    height: 200px;
+    font-family: PT Sans;
+    font-size: 49px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    position: relative;
+    font-style: normal;
+    font-weight: normal; 
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.textNewUser {
+    margin: 38.52px 14px;
+    margin-bottom: 0em;
+}
+.textNewUser h1 {
+    margin: 0 0;
+    font-family: Work Sans;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: -0.46px;
+    font-style: normal;
+}
+.textNewUser p {
+    margin: 0 0;
+    font-family: Work Sans;
+    font-weight: 300;
+    font-size: 14px;
+    font-style: normal;
+}
+
+
+.row {
+    margin: 15px 0;
+    position: relative;
+    width: 527.8px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.row div {
+    margin: 10px 14px;
+}
+.row .imp {
+    width: 234.5px;
+}
+.row span {
+    font-family: Work Sans;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    color: #7C7C7C;
+}
+.row input {
+    outline:none;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    color: black;
+    font-size: 14px;
+    line-height: 16px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #F2F2F2;
+    border-bottom-width: 1px;
+}
+
+.ButtonHaveLog {
+    margin: 115px 22px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+}
+.HaveLogin {
+    width: 145px;
+    height: 15px;
+}
+.HaveLogin p {
+    font-family: Work Sans;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000;
+}
+.HaveLogin a {
+    color: #5A61ED;
+}
+.button {
+    margin: 10px 0;
+    width: 154px;
+    height: 32px;
+}
+.button input {
+    font-family: PT Sans;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    background: #5A61ED;
+    border: 0.5px solid #FFFFFF;
+    width: 154px;
+    height: 32px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* ошибки при не верном введении */
+#message1 {
+    display: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 15px;
+    font-size: 12px;
+    font-family: Work Sans;
+    font-weight: 500;
+    color: #000;
+    background: #F2F2F2;
+}
+#message2 {
+    display: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 15px;
+    font-size: 12px;
+    font-family: Work Sans;
+    font-weight: 500;
+    color: #000;
+    background: #F2F2F2;
+}
+
+/* всплывающие окно thank you */
+footer {
+    width: 1920px;
+    height: 1080px;
+    background: #F2F2F2;
+    display: none;
+    justify-content: center;
+    align-self: center;
+}
+.header {
+    max-width: 800px;
+    max-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.formThank {
+    width: 800px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background: #F4F5FC;
+}
+
+.signupThank {
+    width: 138px;
+    height: 481px;
+    background: #5A61ED;
+
+}
+.signText {
+    margin: 261.02px 71.3px;
+    width: 200px;
+    height: 200px;
+    font-family: PT Sans;
+    font-size: 49px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    position: relative;
+    font-style: normal;
+    font-weight: normal; 
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.listThank {
+    width: 527.8px;
+    height: 480px;
+    background: #fff;
+    align-self: center;
+    display: flex;
+}
+.maskThank  {   
+     align-self: center;
+     display: flex;
+}
+
+.textThank {
+    align-self: center;
+    display: flex;
+}
+.textThank h1 {
+    font-family: Work Sans;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: -0.46px;
+    font-style: normal;
+}
+.textThank p {
+    font-family: Work Sans;
+    font-weight: 300;
+    font-size: 14px;
+    font-style: normal;
+}
+.textself {
+    margin: 0 63.8px;
+}
+
+.formHaveLoginThank {
+    display: flex;
+    align-self: flex-end;
+    margin-left: -221.2px;
+}
+.HaveLoginThank {
+    margin-bottom: 56.48px;
+    width: 145px;
+    height: 15px;
+}
+.HaveLoginThank p {
+    font-family: Work Sans;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000;
+}
+.HaveLoginThank a {
+    color: #5A61ED;
+}

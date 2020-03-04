@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/med.css">
+    <link rel="stylesheet" type="text/css" href="css/medfooter.css">
+</head>
+<body>
+    <!-- Основное окно заполнения данных -->
+    <header>
+        <div class="form">
+            <div class="Group">
+
+                <div class="Bitmap">
+                    <div class="signup">
+                        Sign up
+                    </div>
+                </div>
+    
+                <div class="account">
+    
+                    <div class="textNewUser">
+                        <h1>New user?</h1>
+                        <p>Use the form below to create your account.</p>
+                    </div>
+    
+                <form class="row">
+                    <div><span>First Name</span><br>
+                        <input type="text" name="FirstName" class="imp">
+                    </div>
+                    <div><span>Last Name</span><br>
+                        <input type="text" name="LastName" class="imp" >
+                    </div>
+                    <div><span>Nationality</span><br>
+                        <input type="text" name="Nationality" class="imp">
+                    </div>
+                    <div><span>Email</span><br>
+                        <input type="email" name="email" class="imp" id="email" >
+                    </div>
+                    <div><span>Date of Birth</span><br>
+                        <input type="date" id="date" name="Date of Birth" class="imp">
+                    </div>
+                    <div style="width: 234.5px;"><span>Gender</span><br>
+                        <input  type="checkbox" name="Male" id="Male" value="Male">
+                        <label  for="Male">Male</label>
+                       <input  type="checkbox" name="Female" id="Female" value="Female">
+                        <label for="Female">Female</label>
+                    </div>
+                    <div><span>Password</span><br>
+                        <input type="password" name="password"  class="imp" minlength="8" id="pow" > 
+                        <div id="message1"></div>
+                    </div>
+                    <div><span>Confirm Password</span><br>
+                        <input type="password"  name="Confirm_Password" class="imp"  minlength="8" id="poww" >
+                        <div id="message2"></div>
+                    </div>
+                </form>
+                
+                <form class="ButtonHaveLog">
+                    <div class="HaveLogin">
+                        <p>Have an account? <a href="">Login</a></p>
+                    </div>
+        
+                    <div class="button">
+                        <input type="submit" name="Complete Signup" value="Complete Signup" id="complete">
+                    </div>
+                </form>
+    
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- разметка всплывающего окна Thank you -->
+    <footer  id="footer">
+        <div class="header">
+            <div class="formThank">
+
+                <div class="maskThank">
+    
+                    <div class="signupThank">
+                        <div class="signText">
+                            Sign up
+                        </div>
+                    </div>
+    
+                    <div class="listThank">
+    
+                        <div class="textThank">
+                            <div class="textself">
+                                <h1>Thank You!</h1>
+                                <p>you registered!</p>
+                            </div>
+                        </div>
+    
+                        <div class="formHaveLoginThank">
+                            <div class="HaveLoginThank">
+                                <p>Have an account? <a href="">Login</a></p>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+        </div>       
+    </footer>
+
+    <script src="vendor/jquery-3.4.1.min.js"></script>
+    <script src="js/scr.js"></script>
+</body>
+

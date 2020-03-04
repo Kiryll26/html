@@ -1,0 +1,38 @@
+@media only screen and (max-width: 800px) and (max-height: 480px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+
+
+    footer {
+    max-width: 800px;
+    max-height: 480px;
+}
+.header {
+    max-width: 800px;
+    max-height: 480px;
+}
+.formThank {
+    max-width: 800px;
+    max-height: 480px;
+}
+.listThank {
+    width: 527.8px;
+    height: 480px;
+}
+.signupThank {
+    width: 138px;
+    height: 480px;
+}
+
+}
+@media only screen and (max-width: 1600px) and (max-height: 1200px) {
+    footer {
+        max-width: 1600px;
+        max-height: 1200px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (max-height: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    footer {
+        max-width: 1024px;
+        max-height: 768px;
+    }
+}
